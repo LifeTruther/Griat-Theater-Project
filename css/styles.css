@@ -1,0 +1,132 @@
+body{
+    font-family: Roboto;
+}
+
+h1{
+    margin:0;
+    position:absolute;
+    top:35%;
+    left:17%;
+    font-size: 100px;
+    
+}
+
+h3{
+    font-size:20px;
+}
+h6{
+    font-size: 15px;
+}
+
+table{
+    width:50%;
+}
+
+button{
+    float:right; 
+    margin-left:0px;
+    margin-top: 45px;
+    background-color:rgb(241, 241, 65);
+    border: 1px solid black;
+    border-radius: 2px;
+    font-size:90%;
+    text-align:center;
+}
+
+
+
+.flexbox-container{
+    height:800px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer{
+    height:auto;
+    min-height: 100px;
+    display:flex;
+    flex-wrap: wrap;
+    width:100%; 
+    background-color: black;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.footertext{
+    margin-bottom:30px;
+}
+
+.flexbox-item{
+    width:50%;
+    min-width: 200px;
+    padding: 10px;
+    border-bottom: 2px solid grey;
+    
+}
+
+.flexbox-item-1{
+    width:50%;
+    min-width: 200px;
+    padding: 5px 20px;
+    margin:10px;
+    margin-top:100px;
+    background-color:lightgrey;
+}
+
+.flexbox-item-2{
+    width:21%;
+    vertical-align: top;
+    min-width: 80px;
+    padding: 50px 0px;
+    padding-left:0px;
+    margin:10px;
+    margin-left:30px;
+    color:white;
+}
+
+
+.Raisinpic{
+    float:left;
+    height:80%;
+    width:22%;
+    margin-right:20px;
+}
+
+
+.navbar{
+    width:100%;
+    padding:0px;
+}
+
+
+.header{
+    position:relative; 
+    height: 400px;
+    padding:0;
+   
+    color: white;
+}
+
+.space{
+    width:200px;
+}
+
+.content{
+    color:darkgray;
+}
+
+#navbarSupportedContent{
+    position:absolute;
+    left:32%;
+}
+
+#background{
+    width:100%;
+    height:100%;
+}
+
+#footerimg{
+    height: 150px;
+    aspect-ratio: 1:1;
+}
